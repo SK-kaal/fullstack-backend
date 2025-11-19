@@ -102,6 +102,15 @@ async function seed() {
     const classes = db.collection('classes');
     const orders = db.collection('orders');
 
+    try {
+      await classes.dropIndex('id_1');
+      console.log('Dropped legacy id_1 index');
+    } catch (indexError) {
+      if (indexError.codeName !== 'IndexNotFound') {
+        throw indexError;
+      }
+    }
+
     await Promise.all([classes.deleteMany({}), orders.deleteMany({})]);
     await classes.insertMany(sampleClasses);
 
