@@ -9,7 +9,7 @@ const sampleClasses = [
     spaces: 5,
     day: 'Monday',
     description: 'Introduce coding fundamentals through storytelling and art-focused projects.',
-    image: '/images/placeholder.svg',
+    image: '/images/coding.svg',
   },
   {
     subject: 'STEM Robotics',
@@ -18,7 +18,7 @@ const sampleClasses = [
     spaces: 5,
     day: 'Tuesday',
     description: 'Build simple robots while learning teamwork, problem solving, and circuitry.',
-    image: '/images/placeholder.svg',
+    image: '/images/robotics.svg',
   },
   {
     subject: 'Digital Art Lab',
@@ -27,7 +27,7 @@ const sampleClasses = [
     spaces: 5,
     day: 'Wednesday',
     description: 'Create animations and illustrations using tablets and beginner-friendly software.',
-    image: '/images/placeholder.svg',
+    image: '/images/art.svg',
   },
   {
     subject: 'Mathematics Mastery',
@@ -36,7 +36,7 @@ const sampleClasses = [
     spaces: 5,
     day: 'Thursday',
     description: 'Strengthen numeracy skills with games, challenges, and real-world scenarios.',
-    image: '/images/placeholder.svg',
+    image: '/images/maths.svg',
   },
   {
     subject: 'Drama Club',
@@ -45,7 +45,7 @@ const sampleClasses = [
     spaces: 5,
     day: 'Friday',
     description: 'Build confidence through improv exercises, stagecraft, and mini performances.',
-    image: '/images/placeholder.svg',
+    image: '/images/drama.svg',
   },
   {
     subject: 'Music Ensemble',
@@ -54,7 +54,7 @@ const sampleClasses = [
     spaces: 5,
     day: 'Monday',
     description: 'Explore rhythm and melody using percussion, keyboards, and voice.',
-    image: '/images/placeholder.svg',
+    image: '/images/music.svg',
   },
   {
     subject: 'Young Scientists',
@@ -63,7 +63,7 @@ const sampleClasses = [
     spaces: 5,
     day: 'Tuesday',
     description: 'Hands-on experiments covering chemistry, physics, and environmental science.',
-    image: '/images/placeholder.svg',
+    image: '/images/science.svg',
   },
   {
     subject: 'Chess Strategy',
@@ -72,7 +72,7 @@ const sampleClasses = [
     spaces: 5,
     day: 'Wednesday',
     description: 'Learn tactics, openings, and sportsmanship in a supportive environment.',
-    image: '/images/placeholder.svg',
+    image: '/images/chess.svg',
   },
   {
     subject: 'Outdoor Adventures',
@@ -81,7 +81,7 @@ const sampleClasses = [
     spaces: 5,
     day: 'Thursday',
     description: 'Team challenges, navigation, and nature-based learning in local parks.',
-    image: '/images/placeholder.svg',
+    image: '/images/outdoor.svg',
   },
   {
     subject: 'Spanish for Kids',
@@ -90,7 +90,7 @@ const sampleClasses = [
     spaces: 5,
     day: 'Friday',
     description: 'Songs, games, and conversational Spanish for complete beginners.',
-    image: '/images/placeholder.svg',
+    image: '/images/spanish.svg',
   },
 ];
 
